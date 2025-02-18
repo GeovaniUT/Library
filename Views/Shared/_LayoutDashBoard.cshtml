@@ -1,64 +1,131 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Biblioteca Guzmán Geovani</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Biblioteca_Guzman_Geovani.styles.css" asp-append-version="true" />
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 
     <style>
-        /* Estilos para el sidebar */
+        /* Sidebar */
         .sidebar {
-            width: 250px;
+            width: 260px;
             height: 100vh;
             position: fixed;
-            background: #343a40;
+            background: #212529;
             color: white;
             padding-top: 20px;
+            left: -260px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            border-radius: 0px 15px 15px 0px;
         }
+
+        .sidebar.show {
+            left: 0;
+        }
+
         .sidebar a {
-            display: block;
+            display: flex;
+            align-items: center;
             padding: 15px;
             color: white;
             text-decoration: none;
             font-size: 18px;
             transition: 0.3s;
+            border-radius: 8px;
+            margin: 5px 10px;
         }
+
+        .sidebar a i {
+            margin-right: 10px;
+        }
+
         .sidebar a:hover {
-            background: #495057;
+            background: #343a40;
         }
+
+        /* Botón de cierre */
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 22px;
+            cursor: pointer;
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 20%;
+        }
+
+        .close-btn:hover {
+            background: #ff1a1a;
+        }
+
+        /* Botón de menú hamburguesa */
+        .menu-toggle {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            background: black;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 1100;
+        }
+
+        /* Contenedor principal */
         .content {
-            margin-left: 250px;
+            transition: margin-left 0.3s ease;
             padding: 20px;
+        }
+
+        /* Ajustes para pantallas grandes */
+        media (min-width: 768px) {
+            .sidebar {
+                left: 0;
+            }
+            .menu-toggle {
+                display: none;
+            }
+            .content {
+                margin-left: 260px;
+            }
         }
     </style>
 </head>
 <body>
+    <!-- Botón de menú hamburguesa -->
+    <div class="menu-toggle" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
     <div class="d-flex">
         <!-- Sidebar -->
-        <div class="sidebar">
-            <h3 class="text-center">📚 Biblioteca</h3>
+        <div class="sidebar" id="sidebar">
+            <button class="close-btn " onclick="toggleSidebar()">&times;</button>
+            <h3 class="text-center mt-5">📚 Biblioteca</h3>
             <a asp-area="" asp-controller="Home" asp-action="Index"><i class="fas fa-home"></i> Home</a>
             <a asp-area="" asp-controller="Home" asp-action="Contact"><i class="fas fa-envelope"></i> Contacto</a>
-
             <a asp-area="" asp-controller="Settings" asp-action="Index"><i class="fas fa-cog"></i> Configuración</a>
             <a asp-area="" asp-controller="Users" asp-action="Index"><i class="fas fa-users"></i> Usuarios</a>
             <a asp-area="" asp-controller="Help" asp-action="Index"><i class="fas fa-question-circle"></i> Ayuda</a>
         </div>
+
+        
 
         <!-- Contenido principal -->
         <div class="content w-100">
             <header class="bg-dark text-white p-3 text-center">
                 <h2>Panel de Administración</h2>
             </header>
-
-            <!-- 🔹 Aquí se muestra "Hola Mundo" -->
-         @*    <div class="container text-center my-4">
-                <h1 class="text-primary">Hola Mundo</h1>
-            </div> *@
 
             <div class="container">
                 <main role="main" class="pb-3">
@@ -74,9 +141,14 @@
         </div>
     </div>
 
+    <script>
+        function toggleSidebar() {
+            let sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("show");
+        }
+    </script>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

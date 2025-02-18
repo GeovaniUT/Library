@@ -19,7 +19,7 @@ namespace Biblioteca_Guzman_Geovani.Models.Domain
         [ForeignKey("Roles")]
         public int FkRol { get; set; }
 
-        public Rol Roles { get; set; }
+        public Rol? Roles { get; set; }
 
 
 
