@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\views\\usuario\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:views\\usuario\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\services\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:services\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,8 +15,16 @@
       "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:services\\iservices\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:views\\usuario\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\services\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:services\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|c:\\users\\geova\\source\\repos\\biblioteca guzman geovani\\views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B50F26A4-1701-438E-8FB8-375162CDB36F}|Biblioteca Guzman Geovani.csproj|solutionrelative:views\\shared\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +34,77 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Editar.cshtml",
-              "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Editar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuario\\Editar.cshtml",
-              "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Editar.cshtml",
-              "RelativeToolTip": "Views\\Usuario\\Editar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "_LayoutDashBoard.cshtml",
+              "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Shared\\_LayoutDashBoard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LayoutDashBoard.cshtml",
+              "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Shared\\_LayoutDashBoard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LayoutDashBoard.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T03:40:51.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T02:07:07.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Eliminar.cshtml",
-              "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Eliminar.cshtml",
-              "RelativeDocumentMoniker": "Views\\Usuario\\Eliminar.cshtml",
-              "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Eliminar.cshtml",
-              "RelativeToolTip": "Views\\Usuario\\Eliminar.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T03:35:19.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Usuario\\Index.cshtml",
               "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Views\\Usuario\\Index.cshtml",
               "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAgwKwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-11T00:10:37.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T00:10:37.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Services\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\Services\\UsuarioService.cs",
               "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Services\\Services\\UsuarioService.cs",
               "RelativeToolTip": "Services\\Services\\UsuarioService.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAmwFMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAcwHcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:30:35.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T01:30:35.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "IUsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Services\\IServices\\IUsuarioService.cs",
               "RelativeDocumentMoniker": "Services\\IServices\\IUsuarioService.cs",
               "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Services\\IServices\\IUsuarioService.cs",
               "RelativeToolTip": "Services\\IServices\\IUsuarioService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:31:05.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T01:31:05.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T00:26:23.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T00:26:23.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\geova\\source\\repos\\Biblioteca Guzman Geovani\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T20:11:56.929Z",
               "EditorCaption": ""

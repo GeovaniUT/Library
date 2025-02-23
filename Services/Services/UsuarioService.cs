@@ -101,7 +101,7 @@ namespace Biblioteca_Guzman_Geovani.Services.Services
             }
         }
 
-        public bool EliminarUsuario(int id)
+        public bool Eliminar(int id)
         {
             try
             {
@@ -121,6 +121,7 @@ namespace Biblioteca_Guzman_Geovani.Services.Services
                 throw new Exception("Error al eliminar usuario: " + ex.Message);
             }
         }
+
 
     }
 }

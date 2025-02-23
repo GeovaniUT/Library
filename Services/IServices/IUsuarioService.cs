@@ -14,7 +14,7 @@ namespace Biblioteca_Guzman_Geovani.Services.IServices
 
         public bool EditarUsuario(Usuario usuario);
 
-        public bool EliminarUsuario(int id);
+        public bool Eliminar(int id);
 
 
 

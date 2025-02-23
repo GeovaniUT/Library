@@ -63,35 +63,42 @@ namespace Biblioteca_Guzman_Geovani.Controllers
             return View("/Views/Usuario/Editar.cshtml", usuario);
         }
 
-       
+
+        //public IActionResult Eliminar(int id)
+        //{
+        //    var usuario = _usuarioService.GetUsuarioById(id);
+
+        //    if (usuario == null)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    return PartialView("Eliminar", usuario); 
+        //}
+
+
+        [HttpDelete]
         public IActionResult Eliminar(int id)
         {
-            var usuario = _usuarioService.GetUsuarioById(id);
+            bool result = _usuarioService.Eliminar(id);
 
-            if (usuario == null)
+            if (result == true)
             {
-                return NotFound();
+                return Json(new { success = true });
             }
+            else
+            {
+                return Json(new { success = false });
 
-            return PartialView("Eliminar", usuario); 
+            }
         }
 
-       
-        [HttpPost]
-        public IActionResult EliminarUsuario(int id)
-        {
-            bool eliminado = _usuarioService.EliminarUsuario(id);
-
-            if (!eliminado)
-            {
-                return NotFound(); 
-            }
-
-            return RedirectToAction("Index"); 
-        }
     }
 
 
-
 }
+
+
+
+
 
